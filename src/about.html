@@ -13,129 +13,316 @@
   <!-- Material Design Bootstrap -->
   <link href="static/css/mdb.min.css" rel="stylesheet">
   <!-- Your custom styles (optional) -->
-  <link href="static/css/style.css" rel="stylesheet">
+  <!-- <link href="static/css/style.css" rel="stylesheet"> -->
   <style>
-    html,
-    body,
-    header,
-    .carousel{
-      height: 60vh;
-    }
-    @media (max-width: 740px){
-      html,
-      body,
-      header,
-      .carousel{
-        height: 100vh;
-      }
-      @media (min-width: 800px) and (max-width:850px) {
-        html,
-        body,
-        header,
-        .carousel{
-          height:100vh;
-        }
-      }
+    footer{
+      background-color: #929fba;
     }
   </style>
 </head>
 
 <body>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg
+         navbar-light white scrolling-navbar">
+         <div class="container">
+             <a href="#" class="navbar-brand waves-effect">
+                 <strong>About as</strong>
+             </a>
 
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
-    <div class="container">
-      <a href="#" class="navbar-brand waves-effect">
-        <strong class="blue-text">Online shop</strong>
-      </a>
-      <button class="navbar-toggler" type="button"
-      data-toggle="collapse" data-target="#navbarContent"
-      aria-controls="navbarContent" aia-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggle-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a href="index.html" class="nav-link waves-effect">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="shop-page.html" class="nav-link waves-effect">Product</a>
-          </li>
-          <li class="nav-item">
-            <a href="about.html" class="nav-link waves-effect">About as</a>
-          </li>
-          <li class="nav-item">
-            <a href="blog.html" class="nav-link waves-effect">Blog</a>
-          </li>
-        </ul>
-        <ul class="navbar-nav nav-flex-icons">
-          <li class="nav-item">
-            <a href="#" class="nav-link waves-effect">
-              <span class="badge red z-depth-1 mr-1">13</span>
-              <i class="fa fa-shopping-cart"></i>
-              <span class="clearfix d-none d-sm-inline-block">Cart</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link waves-effect">
-              <i class="fab fa-facebook"></i>
-              </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link waves-effect">
-              <i class="fab fa-twitter"></i>
-              </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link border border-light rounded waves-effect">
-              <i class="fab fa-github"></i>
-              </a>
-          </li>
-        </ul>
+             <button class="navbar-toggler" type="button" data-toggle="collapse"
+             data-target="#navContent" aria-controls="navContent" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navContent" class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link waves-effect">Home</a>
+                    </li>
+                    <li class="nav-item">
+                            <a href="shop-page.html" class="nav-link waves-effect">Product</a>
+                    </li>
+                    <li class="nav-item active">
+                            <a href="about.html" class="nav-link waves-effect">About as</a>
+                    </li>
+                    <li class="nav-item">
+                            <a href="blog.html" class="nav-link waves-effect">Blog</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav nav-flex-icons">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link waves-effect border border-light rounded">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link waves-effect border border-light rounded">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link waves-effect border border-light rounded">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+         </div>
+        </nav>
+    </header>
+    <main class="mt-5 pt-5">
+        <div class="container">
+            <section class="card wow pulse" style="background-image: url(https://images.pexels.com/photos/2129814/pexels-photo-2129814.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)">
+                <div class="card-body text-white text-center py-5 px-5 my-5">
+
+                    <h1 class="mb-4">
+                        <strong>About as</strong>
+                    </h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, ratione.</p>
+
+                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed adipisci velit tenetur perspiciatis culpa eligendi, at ipsam nihil ab, dolorem mollitia a aliquid facilis iusto.</p>
+                    <a href="#" class="btn btn-outline-white btn-lg">
+                        Start right now <i class="fa fa-graduation-cap ml-2">
+
+                        </i>
+                    </a>
+
+                </div>
+            </section>
+
+            <hr class="my-5">
+
+            <section class="wow fadeIn">
+                <h2 class="h1 text-center my-5 font-weight-bold">
+                    Lorem, ipsum dolor.
+                </h2>
+                
+                <div class="row text-left">
+
+                    <div class="col-lg-6 col-md-12 wow fadeInLeft">
+                        <div class="view overlay rounded z-depth-1-half mb-3">
+                            <img src="https://images.pexels.com/photos/1054218/pexels-photo-1054218.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                             alt="" class="img-fluid">
+                             <a href="#">
+                                 <div class="mask rgba-white-slight"></div>
+                             </a>
+                        </div>
+
+                        <div class="news-data">
+                            <a href="#" class="light-blue-text">
+                                <h6>
+                                    <i class="fa fa-plane"></i>
+                                    <strong>Travel</strong>
+                                </h6>
+                            </a>
+
+                            <p>
+                                <strong>
+                                    <i class="fa fa-clock-o"></i>
+                                    20/08/2018
+                                </strong>
+                            </p>
+                        </div>
+
+                        <h3>
+                            <a href="#">
+                                <strong>This is the list of news</strong>
+                            </a>
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur 
+                            adipisicing elit. Debitis tempora expedita enim a
+                            b blanditiis quaerat, suscipit earum alias 
+                            provident iusto error illo. Totam, quod consequuntur?</p>
+
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="view overlay rounded z-depth-1">
+                                    <img src="https://images.pexels.com/photos/2542011/pexels-photo-2542011.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <p class="dark-grey-text">
+                                    <strong>
+                                        19/08/2018
+                                    </strong>
+                                </p>
+                                <a>
+                                    Lorem ipsum dolor sit amet.
+                                    <i class="fa fa-angle-right float-right"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <hr>
+                        <div class="row">
+                                <div class="col-md-3">
+                                    <div class="view overlay rounded z-depth-1">
+                                        <img src="https://images.pexels.com/photos/2542011/pexels-photo-2542011.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+                                    <p class="dark-grey-text">
+                                        <strong>
+                                            19/08/2018
+                                        </strong>
+                                    </p>
+                                    <a>
+                                        Lorem ipsum dolor sit amet.
+                                        <i class="fa fa-angle-right float-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+    
+                        <hr>
+                        <div class="row">
+                                <div class="col-md-3">
+                                    <div class="view overlay rounded z-depth-1">
+                                        <img src="https://images.pexels.com/photos/2542011/pexels-photo-2542011.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+                                    <p class="dark-grey-text">
+                                        <strong>
+                                            19/08/2018
+                                        </strong>
+                                    </p>
+                                    <a>
+                                        Lorem ipsum dolor sit amet.
+                                        <i class="fa fa-angle-right float-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+    
+                        
+
+                    </div>
+
+                    
+                    <div class="col-lg-6 col-md-12 wow fadeInRight">
+                        <div class="view overlay rounded z-depth-1-half mb-3">
+                            <img src="https://images.pexels.com/photos/1054218/pexels-photo-1054218.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                             alt="" class="img-fluid">
+                             <a href="#">
+                                 <div class="mask rgba-white-slight"></div>
+                             </a>
+                        </div>
+
+                        <div class="news-data">
+                            <a href="#" class="light-blue-text">
+                                <h6>
+                                    <i class="fa fa-plane"></i>
+                                    <strong>Travel</strong>
+                                </h6>
+                            </a>
+
+                            <p>
+                                <strong>
+                                    <i class="fa fa-clock-o"></i>
+                                    20/08/2018
+                                </strong>
+                            </p>
+                        </div>
+
+                        <h3>
+                            <a href="#">
+                                <strong>This is the list of news</strong>
+                            </a>
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur 
+                            adipisicing elit. Debitis tempora expedita enim a
+                            b blanditiis quaerat, suscipit earum alias 
+                            provident iusto error illo. Totam, quod consequuntur?</p>
+
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="view overlay rounded z-depth-1">
+                                    <img src="https://images.pexels.com/photos/2542011/pexels-photo-2542011.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <p class="dark-grey-text">
+                                    <strong>
+                                        19/08/2018
+                                    </strong>
+                                </p>
+                                <a>
+                                    Lorem ipsum dolor sit amet.
+                                    <i class="fa fa-angle-right float-right"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <hr>
+                        <div class="row">
+                                <div class="col-md-3">
+                                    <div class="view overlay rounded z-depth-1">
+                                        <img src="https://images.pexels.com/photos/2542011/pexels-photo-2542011.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+                                    <p class="dark-grey-text">
+                                        <strong>
+                                            19/08/2018
+                                        </strong>
+                                    </p>
+                                    <a>
+                                        Lorem ipsum dolor sit amet.
+                                        <i class="fa fa-angle-right float-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+    
+                        <hr>
+                        <div class="row">
+                                <div class="col-md-3">
+                                    <div class="view overlay rounded z-depth-1">
+                                        <img src="https://images.pexels.com/photos/2542011/pexels-photo-2542011.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+                                    <p class="dark-grey-text">
+                                        <strong>
+                                            19/08/2018
+                                        </strong>
+                                    </p>
+                                    <a>
+                                        Lorem ipsum dolor sit amet.
+                                        <i class="fa fa-angle-right float-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+    
+                        
+
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="page-footer text-center font-small darken-2 mt-4 wow fadeIn">
+      <div class="pt-4">
+          <a href="#" class="btn btn-outline-white">Boostrap <i class="fa fa-download ml-2"></i></a>
+          <a href="#" class="btn btn-outline-white">Practical tutorials<i class="fa fa-graduation-cap ml-2"></i></a>
       </div>
-    </div>  
-  </nav>
+      <hr class="my-4">
+      <div class="pb-4">
+              <a href="#"><i class="fab fa-facebook mr-3"></i></a>
+              <a href="#"><i class="fab fa-twitter mr-3"></i></a>
+              <a href="#"><i class="fab fa-github mr-3"></i></a>
+              <a href="#"><i class="fab fa-youtube mr-3"></i></a>
+              <a href="#"><i class="fab fa-codepen mr-3"></i></a>
+              <a href="#"><i class="fab fa-telegram mr-3"></i></a>
+              <a href="#"><i class="fab fa-instagram mr-3"></i></a>
+      </div>
+      <div class="footer-copyright py-3">
+          Online shop
+      </div>
+    </footer>
 
-  <main>
-        
-  </main>
 
-  <footer class="page-footer text-center font-small mt-4 wow fadeIn">
-    <div class="pt-4">
-      <a href="#" role="button" class="btn btn-outline-white">myProject
-        <i class="fa fa-graduation-cap ml-2"></i>
-      </a>
-      <a href="#" role="button" class="btn btn-outline-white">Online shop
-          <i class="fa fa-graduation-cap ml-2"></i>
-      </a>
-    </div>
-    <hr class="my-4">
-    <div class="pb-4">
-      <a href="#" class="">
-        <i class="fab fa-facebook mr-3"></i>
-      </a>
-      <a href="#" class="">
-          <i class="fab fa-twitter mr-3"></i>
-      </a>
-      <a href="#" class="">
-          <i class="fab fa-youtube mr-3"></i>
-      </a>
-      <a href="#" class="">
-          <i class="fab fa-google-plus mr-3"></i>
-      </a>
-      <a href="#" class="">
-          <i class="fab fa-dribbble mr-3"></i>
-      </a>
-      <a href="#" class="">
-          <i class="fab fa-printerest mr-3"></i>
-      </a>
-      <a href="#" class="">
-          <i class="fab fa-github mr-3"></i>
-      </a>
-    </div>
-    <div class="footer-copyright py-3">
-      Online shop
-    </div>
-  </footer>
   
   <!-- SCRIPTS -->
   <!-- JQuery -->

@@ -13,129 +13,338 @@
   <!-- Material Design Bootstrap -->
   <link href="static/css/mdb.min.css" rel="stylesheet">
   <!-- Your custom styles (optional) -->
-  <link href="static/css/style.css" rel="stylesheet">
+  <!-- <link href="static/css/style.css" rel="stylesheet"> -->
   <style>
-    html,
-    body,
-    header,
-    .carousel{
-      height: 60vh;
-    }
-    @media (max-width: 740px){
-      html,
-      body,
-      header,
-      .carousel{
-        height: 100vh;
+      footer{
+        background-color: #929fba;
       }
-      @media (min-width: 800px) and (max-width:850px) {
-        html,
-        body,
-        header,
-        .carousel{
-          height:100vh;
-        }
-      }
-    }
   </style>
 </head>
 
 <body>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg
+         navbar-light white scrolling-navbar">
+         <div class="container">
+             <a href="#" class="navbar-brand waves-effect">
+                 <strong>Blog</strong>
+             </a>
 
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
-    <div class="container">
-      <a href="#" class="navbar-brand waves-effect">
-        <strong class="blue-text">MyProject</strong>
-      </a>
-      <button class="navbar-toggler" type="button"
-      data-toggle="collapse" data-target="#navbarContent"
-      aria-controls="navbarContent" aia-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggle-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a href="index.html" class="nav-link waves-effect">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="shop-page.html" class="nav-link waves-effect">Product</a>
-          </li>
-          <li class="nav-item">
-            <a href="about.html" class="nav-link waves-effect">About as</a>
-          </li>
-          <li class="nav-item">
-            <a href="blog.html" class="nav-link waves-effect">Blog</a>
-          </li>
-        </ul>
-        <ul class="navbar-nav nav-flex-icons">
-          <li class="nav-item">
-            <a href="#" class="nav-link waves-effect">
-              <span class="badge red z-depth-1 mr-1">13</span>
-              <i class="fa fa-shopping-cart"></i>
-              <span class="clearfix d-none d-sm-inline-block">Cart</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link waves-effect">
-              <i class="fab fa-facebook"></i>
-              </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link waves-effect">
-              <i class="fab fa-twitter"></i>
-              </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link border border-light rounded waves-effect">
-              <i class="fab fa-github"></i>
-              </a>
-          </li>
-        </ul>
-      </div>
-    </div>  
-  </nav>
+             <button class="navbar-toggler" type="button" data-toggle="collapse"
+             data-target="#navContent" aria-controls="navContent" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navContent" class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link waves-effect">Home</a>
+                    </li>
+                    <li class="nav-item">
+                            <a href="shop-page.html" class="nav-link waves-effect">Product</a>
+                    </li>
+                    <li class="nav-item">
+                            <a href="about.html" class="nav-link waves-effect">About as</a>
+                    </li>
+                    <li class="nav-item active">
+                            <a href="blog.html" class="nav-link waves-effect">Blog</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav nav-flex-icons">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link waves-effect border border-light rounded">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link waves-effect border border-light rounded">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link waves-effect border border-light rounded">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+         </div>
+        </nav>
+    </header>
 
-  <main>
+    <main class="mt-5 pt-5">
+        <div class="container">
+            <section class="mt-4">
+                <div class="row">
+                    <div class="col-md-8 mb-4">
+                        <div class="card mb-4 wow fadeInDown">
+                            <img src="https://images.pexels.com/photos/2356064/pexels-photo-2356064.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                             alt="" class="img-fluid">
+                        </div>
+                        
 
-  </main>
+                        <div class="card mb-4 wow fadeInLeft">
+                            <div class="card-body">
+                                <p class="h5 my-4">
+                                    Lorem ipsum dolor sit.
+                                </p>
+                                <blockquote class="blockquote">
+                                    <p class="mb-0">Lorem, ipsum dolor sit amet consectetur 
+                                        adipisicing elit. Debitis, a!</p>
+                                        <footer class="blockquote-footer">
+                                            Lorem, ipsum <cite title="Sourse title">Sourse title</cite>
+                                        </footer>
+                                </blockquote>
 
-  <footer class="page-footer text-center font-small mt-4 wow fadeIn">
-    <div class="pt-4">
-      <a href="#" role="button" class="btn btn-outline-white">myProject
-        <i class="fa fa-graduation-cap ml-2"></i>
-      </a>
-      <a href="#" role="button" class="btn btn-outline-white">Online shop
-          <i class="fa fa-graduation-cap ml-2"></i>
-      </a>
-    </div>
-    <hr class="my-4">
-    <div class="pb-4">
-      <a href="#" class="">
-        <i class="fab fa-facebook mr-3"></i>
-      </a>
-      <a href="#" class="">
-          <i class="fab fa-twitter mr-3"></i>
-      </a>
-      <a href="#" class="">
-          <i class="fab fa-youtube mr-3"></i>
-      </a>
-      <a href="#" class="">
-          <i class="fab fa-google-plus mr-3"></i>
-      </a>
-      <a href="#" class="">
-          <i class="fab fa-dribbble mr-3"></i>
-      </a>
-      <a href="#" class="">
-          <i class="fab fa-printerest mr-3"></i>
-      </a>
-      <a href="#" class="">
-          <i class="fab fa-github mr-3"></i>
-      </a>
-    </div>
-    <div class="footer-copyright py-3">
-      Online shop
-    </div>
-  </footer>
+
+                                <p class="h5 my-4">Lorem ipsum dolor sit amet.</p>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores deserunt at commodi porro unde ipsum impedit fuga ad possimus. Expedita facere et vel laboriosam earum beatae adipisci in doloribus modi?</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia earum ratione vero quasi modi, quo sunt assumenda saepe. Laboriosam hic ea cupiditate cum in necessitatibus asperiores eligendi reiciendis qui. Omnis.</p>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem, dicta adipisci vel nisi eum totam vitae? Labore nostrum dicta dolores ipsa tempora. Necessitatibus impedit quia provident, corporis quae fugi t assumenda?</p>
+                            </div>
+                        </div>
+
+                        <div class="card mb-4 wow fadeInLeft">
+                            <div class="card-header font-weight-bold">
+                                <span>About author</span>
+                                <span class="float-right">
+                                    <a href="#"><i class="fab fa-facebook mr-2"></i></a>
+                                    <a href="#"><i class="fab fa-twitter mr-2"></i></a>
+                                    <a href="#"><i class="fab fa-github mr-2"></i></a>
+                                    <a href="#"><i class="fab fa-instagram mr-2"></i></a>
+                                </span>
+                            </div>
+
+                            <div class="card-body">
+                                <div class="media d-block d-md-flex mt-3">
+                                    <img style="width:100px; height: 100px;" src="https://cdn2.img.sputnik.az/images/40831/72/408317221.jpg"
+                                     alt="" class="d-flex mb-3 mx-auto z-depth-1">
+                                     <div class="media-body text-center text-md-left ml-md-3 ml-0">
+                                         <h5 class="mt-0 font-weight-bold">Lorem, ipsum dolor.
+                                         </h5>
+                                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                         Laudantium totam aliquid officiis quae, libero veritatis 
+                                         quibusdam ea excepturi. Aliquam possimus rerum quisquam 
+                                         consectetur quas, vitae nisi id cupiditate voluptatem culpa?
+                                     </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="card card-comments mb-3 wow fadeInUp">
+                            <div class="card-header font-weight-bold">3 comments</div>
+                            <div class="card-body">
+                                <div class="media d-block d-md-flex mt-4">
+                                    <img style="width: 100px; height: 100px;" src="https://img.anews.com/media/gallery/101559179/364908841.jpg"
+                                     alt="" class="d-flex mb-3 mx-auto">
+                                     <div class="media-body text-center text-md-left ml-md-3 ml-0">
+                                         <h5 class="mt-0 font-weight-bold">Lorem, ipsum dolor.
+                                             <a href="#" class="float-right">
+                                                 <i class="fa fa-reply"></i>
+                                             </a>
+                                         </h5>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga exercitationem, 
+                                        id sapiente veniam distinctio minima molestiae unde, maiores esse pariatur quasi
+                                        veritatis omnis in corrupti a maxime quibusdam deserunt? Dolor voluptas temporibus 
+                                        distinctio rem quasi.
+                                        <div class="media d-block d-md-flex mt-4">
+                                            <img style="width:100px; height: 100px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5RTIIWknUDyO-y92uokARxY4kzmmFqt2EE2NDoCSUawqjsn3M"
+                                                alt="" class="d-flex mb-3 mx-auto">
+                                                <div class="media-body text-center text-md-left ml-md-3 ml">
+                                                    <h5 class="mt-0 font-weight-bold">Lorem, ipsum dolor.
+                                                        <a href="#" class="float-right">
+                                                            <i class="fa fa-reply"></i>
+                                                        </a>
+                                                    </h5>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga exercitationem, 
+                                                    id sapiente veniam distinctio minima molestiae unde, maiores esse pariatur quasi
+                                                    veritatis omnis in corrupti a maxime quibusdam deserunt? Dolor voluptas temporibus 
+                                                    distinctio rem quasi.
+                                                </div>
+                                        </div>
+
+                                        <div class="form-group mt-4">
+                                            <label for="reply">Your comment</label>
+                                            <textarea name="" id="" class="form-control" rows="5"></textarea>
+                                            <div class="text-center">
+                                                <button class="btn btn-info btn-sm">Post</button>
+                                            </div>
+                                        </div>
+
+                                        <div class="media d-block d-md-flex mt-3">
+                                            <img style="width:100px; height: 100px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLA9-7o4XFNFoSU6NonZNDlXMiM2W1I24x38r40M6IcomSTHsl"
+                                             class="d-flex mb-3 mx-auto"></img>
+                                             <div class="media-body text-center text-md-left ml-md-3 ml">
+                                                    <h5 class="mt-0 font-weight-bold">Lorem, ipsum dolor.
+                                                        <a href="#" class="float-right">
+                                                            <i class="fa fa-reply"></i>
+                                                        </a>
+                                                    </h5>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga exercitationem, 
+                                                    id sapiente veniam distinctio minima molestiae unde, maiores esse pariatur quasi
+                                                    veritatis omnis in corrupti a maxime quibusdam deserunt? Dolor voluptas temporibus 
+                                                    distinctio rem quasi.
+                                                </div>
+                                        </div>
+
+                                        </div>
+                                     </div>
+
+                                     <div class="media d-block d-md-flex mt-3">
+                                        <img style="width:100px; height: 100px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToBFQ4Igyrt4u0mQCAcoOTSyjYySaFQk4nbqowhZnSm21nzYa3"
+                                            class="d-flex mb-3 mx-auto"></img>
+                                            <div class="media-body text-center text-md-left ml-md-3 ml">
+                                                <h5 class="mt-0 font-weight-bold">Lorem, ipsum dolor.
+                                                    <a href="#" class="float-right">
+                                                        <i class="fa fa-reply"></i>
+                                                    </a>
+                                                </h5>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga exercitationem, 
+                                                id sapiente veniam distinctio minima molestiae unde, maiores esse pariatur quasi
+                                                veritatis omnis in corrupti a maxime quibusdam deserunt? Dolor voluptas temporibus 
+                                                distinctio rem quasi.
+                                        </div>
+                                     
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="card mb-3 wow fadeIn">
+                            <div class="card-header font-weight-bold">Leave a reply</div>
+                            <div class="card-body">
+                                <form>
+                                    <div class="form-group">
+                                        <label>Your comment</label>
+                                        <textarea class="form-control" rows="10"></textarea>
+                                    </div>
+                                    <label>Your name</label>
+                                    <input type="name" class="mb-4 form-control">
+
+                                    <label>Your email</label>
+                                    <input type="email" class="form-control">
+                                    <div class="text-center mt-4">
+                                        <button class="btn btn-info btn-md">Post</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card blue-gradient mb-4 wow fadeIn">
+                            <div class="card-body text-white text-center">
+                                <h4 class="mb-4">
+                                    Aleksandr
+                                </h4>
+                                <p>
+                                    <strong>
+                                        Lorem ipsum dolor
+                                         sit amet consectetur adipisicing elit. 
+                                         Deleniti recusandae, eos dolor delectus hic sit!
+                                    </strong>
+                                </p>
+                                <p>
+                                    <strong>
+                                            Lorem ipsum dolor
+                                                sit amet consectetur adipisicing elit. 
+                                                Deleniti recusandae, eos dolor delectus hic sit!
+                                    </strong>
+                                </p>
+
+                                <a href="#" class="btn btn-outline-white btn-md">
+                                    Start <i class="fa fa-graduation cap ml-2"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card mb-4 text-center wow fadeIn">
+                            <div class="card-header">Lorem ipsum dolor sit amet.</div>
+                            <div class="card-body">
+                                <form>
+                                    <label class="grey-text">Your email</label>
+                                    <input type="email" class="form-control">
+
+                                    <br>
+                                    
+                                    <label class="grey-text">Your name</label>
+                                    <input type="text" class="form-control">
+
+                                    <div class="text-center mt-4">
+                                        <button class="btn btn-info btn-md">
+                                            Sign up
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+
+                        <div class="card mb-4 wow fadeIn">
+                            <div class="card-header">Articles</div>
+                            <div class="card-body">
+                                <ul class="list-unstyled">
+
+                                    <li class="media my-4">
+                                    <img style="width:80px; height: 80px;" src="https://images.pexels.com/photos/2382744/pexels-photo-2382744.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                                     alt="" class="d-flex mr-3">
+                                     <div class="media-body">
+                                         <a>
+                                             <h5 class="mt-0 mb-1 font-weight-bold">Lorem ipsum dolor sit</h5>
+                                             Lorem ipsum dolor sit amet consectetur
+                                         </a>
+                                     </div>
+                                    </li>
+                                    <li class="media my-4">
+                                            <img style="width:80px; height: 80px;" src="https://images.pexels.com/photos/2333857/pexels-photo-2333857.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                                             alt="" class="d-flex mr-3">
+                                             <div class="media-body">
+                                                 <a>
+                                                     <h5 class="mt-0 mb-1 font-weight-bold">Lorem ipsum dolor sit</h5>
+                                                     Lorem ipsum dolor sit amet consectetur
+                                             </div>
+                                    </li>
+                                    <li class="media my-4">
+                                            <img style="width:80px; height: 80px;" src="https://images.pexels.com/photos/2374666/pexels-photo-2374666.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                                             alt="" class="d-flex mr-3">
+                                             <div class="media-body">
+                                                 <a>
+                                                     <h5 class="mt-0 mb-1 font-weight-bold">Lorem ipsum dolor sit</h5>
+                                                     Lorem ipsum dolor sit amet consectetur
+                                                 </a>
+                                             </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="page-footer text-center font-small darken-2 mt-4 wow fadeIn">
+            <div class="pt-4">
+                <a href="#" class="btn btn-outline-white">Boostrap <i class="fa fa-download ml-2"></i></a>
+                <a href="#" class="btn btn-outline-white">Practical tutorials<i class="fa fa-graduation-cap ml-2"></i></a>
+            </div>
+            <hr class="my-4">
+            <div class="pb-4">
+                    <a href="#"><i class="fab fa-facebook mr-3"></i></a>
+                    <a href="#"><i class="fab fa-twitter mr-3"></i></a>
+                    <a href="#"><i class="fab fa-github mr-3"></i></a>
+                    <a href="#"><i class="fab fa-youtube mr-3"></i></a>
+                    <a href="#"><i class="fab fa-codepen mr-3"></i></a>
+                    <a href="#"><i class="fab fa-telegram mr-3"></i></a>
+                    <a href="#"><i class="fab fa-instagram mr-3"></i></a>
+            </div>
+            <div class="footer-copyright py-3">
+                Online shop
+            </div>
+    </footer>
+
+
   
   <!-- SCRIPTS -->
   <!-- JQuery -->
